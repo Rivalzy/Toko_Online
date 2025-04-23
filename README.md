@@ -15,6 +15,9 @@ php artisan migrate
 
 ## Seeding data
 php artisan db:seed
+
+## Generate key
+php artisan key:generate
 ```
 3. Run the server
 ```
