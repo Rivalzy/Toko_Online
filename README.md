@@ -9,12 +9,10 @@ cd toko_onlie
 ```
 ## Install dependencies
 composer install
-```
-```
+
 ## Migration MYSQL
 php artisan migrate
-```
-```
+
 ## Seeding data
 php artisan db:seed
 ```
