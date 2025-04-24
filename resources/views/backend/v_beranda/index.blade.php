@@ -5,7 +5,7 @@
     <h3> {{ $judul }} </h3>
     @if (Auth::check())
         <p>
-            Selamat Datang, <b>{{ Auth::user()->nama }}</b> pada aplikasi Toko Online dengan hak akses yang anda miliki <br>
+            Selamat Datang, <b>{{ Auth::user()->nama }}</b> pada aplikasi Toko Online dengan hak akses yang anda miliki
             sebagai <b>
                 @if (Auth::user()->role == 1)
                     Super Admin
