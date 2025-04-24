@@ -26,7 +26,3 @@ php artisan serve
 Server will run on port http://127.0.0.1:8000
 
 ---
-4. Test
-```
-test doang
-```
